@@ -183,3 +183,44 @@ form {
 .btn-add:hover {
 	background-color: var(--azul-hover);
 }
+/* Estilos generales */
+
+/* ... (Estilos comunes para escritorio) */
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+	.card-to-do {
+	  /* Estilos específicos para dispositivos móviles */
+	  width: 100%; /* Ajustar el ancho al 100% */
+	  padding: 20px; /* Agregar un poco de espacio alrededor */
+	}
+  
+	/* Estilos para elementos dentro de la tarjeta en dispositivos móviles */
+	.card-to-do h1 {
+	  font-size: 24px; /* Reducir el tamaño del título */
+	}
+  
+	
+	  /* Estilos para el contador */
+	  /* Puedes ajustar el tamaño de fuente, márgenes, etc. */
+	  .counter-todos {
+		font-size: 16px; /* Reducir el tamaño de fuente */
+		margin-bottom: 10px; /* Ajustar el margen inferior */
+	  }
+	  
+	  .add-todo {
+		font-size: 14px; /* Reducir el tamaño de fuente */
+		margin-bottom: 15px; /* Ajustar el margen inferior */
+	  }
+	  
+  
+	  .todo-item {
+		font-size: 14px; /* Reducir el tamaño de fuente */
+		margin-bottom: 8px; /* Ajustar el margen inferior */
+		padding: 5px; /* Ajustar el relleno */
+	  }
+	  
+  
+	
+  }
+  
